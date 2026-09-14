@@ -1,0 +1,16 @@
+[project]
+name = "conspiracy-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "streamlit>=1.50.0",
+]
+
+[project.scripts]
+conspiracy-agent = "conspiracy_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
