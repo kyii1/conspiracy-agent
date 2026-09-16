@@ -8,6 +8,9 @@ dependencies = [
     "llama-index>=0.14.16",
     "llama-index-embeddings-ollama>=0.8.6",
     "llama-index-llms-ollama>=0.9.1",
+    "llama-index-vector-stores-postgres>=0.7.3",
+    "psycopg2-binary>=2.9.12",
+    "pypdf>=6.18.1",
     "streamlit>=1.50.0",
 ]
 
